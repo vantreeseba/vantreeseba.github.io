@@ -68,6 +68,6 @@ theme: landscape
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-      type: github
-      repository: https://github.com/vantreeseba/vantreeseba.github.com.git
+      type: git
+      repository: ssh://git@github.com/vantreeseba/vantreeseba.github.io
       branch: master
